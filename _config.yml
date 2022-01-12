@@ -21,6 +21,7 @@ theme_color: white
 encoding: utf-8
 
 # Links and Social Media
+donate_link: https://cash.app/$blazedlabs
 repository: https://github.com/tyler-ruff/blazed-publishing
 github: https://github.com/blazed-xyz
 twitter: https://twitter.com/BlazedLabs
