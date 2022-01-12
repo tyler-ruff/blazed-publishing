@@ -5,6 +5,13 @@
 @import "/assets/css/accessibility.css";
 @import "/assets/css/toc.css";
 
+/* Blazed Labs Custom Scrollbar */
+body::-webkit-scrollbar{width:10px}body::-webkit-scrollbar-track{background:#727a8a}
+
+body::-webkit-scrollbar-thumb{background-color:#afb4bd;border-radius:20px;border:1px solid #5b626e}
+
+body::-webkit-scrollbar-thumb:hover{background-color:#5b626e}
+
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 html {
