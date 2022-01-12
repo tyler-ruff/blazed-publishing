@@ -1,6 +1,6 @@
 # Site Data
 title: "Blazed Publishing"
-tagline: "Publishing dreams into reality."
+tagline: "- turning dreams into reality."
 name: "Blazed Publishing BD."
 author_bio:
   "Hey there! My name is Brennan, I'm a 24-year-old Métis web developer and content strategist from Winnipeg,
@@ -21,12 +21,11 @@ theme_color: white
 encoding: utf-8
 
 # Links and Social Media
-donate_link: https://ko-fi.com/brennanbrown
-repository: https://github.com/brennanbrown/enjoyment-work
-github: https://github.com/brennanbrown
-twitter: https://twitter.com/brennankbrown
-portfolio: https://brennanbrown.ca
-email: mail@brennanbrown.ca
+repository: https://github.com/tyler-ruff/blazed-publishing
+github: https://github.com/blazed-xyz
+twitter: https://twitter.com/BlazedLabs
+portfolio: https://blazedlabs.com/
+email: hello@blazed.space
 
 # Build Settings
 theme: null
