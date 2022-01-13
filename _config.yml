@@ -3,15 +3,12 @@ title: "Blazed Publishing"
 tagline: "- turning dreams into reality."
 name: "Blazed Publishing BD."
 author_bio:
-  "Hey there! My name is Brennan, I'm a 24-year-old Métis web developer and content strategist from Winnipeg,
-  Manitoba and currently reside in Calgary, Alberta. I've recently compeleted a Full Stack Developer Program
-  at EvolveU, and I'm looking to help those that need web development work done, or searching for ideas and
-  management for their next content project."
-description: "A Digital Garden: Capturing my daily thoughts and progress, as well as curated ideas with unique synthesis—a personal zettelkasten."
+  " We are Blazed Publishing BD. The publishing division of
+  Blazed Labs LLC. We publish text, media, and interactive 
+  software. We also publish lots of open source content."
+description: "Blazed Publishing BD. The publishing division of Blazed Labs LLC."
 footer_description:
-  'The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the
-  resulting "showpiece" and more on the process, care, and craft it takes to get there. While not everybody
-  has or works in a dirt garden, we all share a familiarity with the idea of what a garden is.'
+  'Working to turn dreams into reality. We publish awesome ideas.'
 notes_url: "https://blazed.xyz"
 profile_pic: "https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png"
 favicon: /assets/img/favicon.png
