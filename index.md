@@ -8,13 +8,14 @@ permalink: /
 [[“The obscure outlasts the obvious” <br><cite>--- Tao Te Ching by Laozi</cite>::rmn]]
 
 1. [**Catalogue of Notes:**](/notes)
-   - Note-taking within this project is powerful, utilizing several unique features such as: Roam-style double bracket link syntax to other notes, auto-generated backlinks, on-hover page previews, support for responsive margin-notes,
-2. [**Daily Progress Journal:**](/journals)
-   - A more simple section for daily public writing that could be built into more complex and well-connected notes.
-3. [**A Blog:**](/posts)
-   - Finally, this Jekyll project also allows for blog posts like any other, which could be viewed as the final step for process of smart note-taking.
+   - Quick and simple posts about all kinds of things, engineering, systems design & development, philosophy, mathematics, etc.
+2. [**Blazed Quarterly Publication:**](/journals)
+   - A document published once quarterly to the public, so that they may see the current affairs of the Blazed company, Blazed World, Blazed City, and/or RUFF Foundation.
+3. [**Other Publications:**](/posts)
+   - Other published documents not released as part of a quarterly publication.
 
-In essence, this is the dream website that I've always wanted to make since I began tinkering with HTML over ten years ago. As stated above, unlike regular Jekyll blogs, this blog has dedicated sections for [notes](/notes), as well as [journal entries](/journals). This is meant to encourage daily public writing, as well as the [Digital Garden](#digital-gardens-an-overview) philosophy.
+Blazed Publishing is a business division of the Blazed Labs company.
+This division is responsible for publishing text, media, and software for the Blazed Labs company.
 
 For more examples and information, please visit the following articles:
 
