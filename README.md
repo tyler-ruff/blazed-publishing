@@ -1,7 +1,9 @@
 # blazed-publishing
-Blazed Publishing BD: Make your words mean something.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/dedad024-19e2-49bb-af33-c5a74214f284/deploy-status)](https://app.netlify.com/sites/blazed-xyz/deploys)
+![Screenshot](screenshot.png)
+![Netlify Status](https://api.netlify.com/api/v1/badges/dedad024-19e2-49bb-af33-c5a74214f284/deploy-status)
+
+Blazed Publishing BD: Make your words mean something.
 
 ## Credits
 + **Jeyll Theme By:**
