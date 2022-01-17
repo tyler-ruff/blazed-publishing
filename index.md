@@ -25,16 +25,10 @@ For more examples and information, please visit the following articles:
 
 ## About {{site.title}}
 
-The next step for Enjoyment Work is to properly configure the syntax required to work with [**Obsidian**](https://obsidian.md/), a powerful knowledge base that works on top of a local folder of plain text Markdown files. Which would ultimately allow somebody to turn their Obsidian notes into an online blog by simply using the `_notes` directory.
+This website is a garden of sorts, of information and articles. This site is also part of a greater initative by the Blazed Labs company to create a free and open source University; called Blazed University.
 
-There are several other planned features in the [Roadmap](<[#roadmap](https://github.com/brennanbrown/enjoyment-work#roadmap)>) ahead, as the project is far from perfect. It is currently using the Bootstrap 4 framework, which although is powerful and extensive, does slow thing down, along with the rather large `style.css` file which needs to be trimmed down and converted into SASS.
-
-If you like the idea of being able to use Jekyll as a free alternative to Roam Research, Notion, etc. then please feel free to [**use this template**](https://github.com/brennanbrown/enjoyment-work/generate), or even better, contribute to this project by [submitting a pull request](https://github.com/brennanbrown/enjoyment-work/pulls) or [creating an issue](https://github.com/brennanbrown/enjoyment-work/issues)! First-time contributors are definitely welcomed!
-
-In addition, I have created two other free Jekyll themes that you might be interested in:
-
-- [**Watery**](https://github.com/brennanbrown/watery): A minimalist, bare-bones theme for Jekyll only using the Water.css framework while still following the best practices for accessibility and search-engine optimization.
-- [**Purelog**](https://github.com/brennanbrown/purelog): A responsive sidebar Jekyll theme using the Pure.css framework, designed for writers and bloggers of all kinds.
+- [**Github**](https://github.com/blazed-xyz): A minimalist, bare-bones theme for Jekyll only using the Water.css framework while still following the best practices for accessibility and search-engine optimization.
+- [Learn More](https://www.blazed.xyz/about/)
 
 ## Digital Gardens: An Overview
 
