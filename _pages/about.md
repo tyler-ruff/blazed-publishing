@@ -8,7 +8,7 @@ author: false
 
 <div class="row pt-5">
    <div class="col-lg-4">
-      <h1 class="text-center">Who Are We</h1>
+      <h1 class="text-center">Blazed</h1>
       <img class="mx-auto d-block mb-3" src="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_red.png?w=300&h=300" height="300" alt="Photo of Red Ibis">
       <p class="text-center">
             <a href="https://twitter.com/BlazedLabs"><img
@@ -17,8 +17,8 @@ author: false
             <a href="https://www.linkedin.com/company/blazed-labs/"><img
                   src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/company/blazed-labs/"
                   alt="Linkedin"></a>
-            <a href="mailto:xyz@blazed.space"><img
-                  src="https://img.shields.io/badge/-Email-c14438?style=flat&amp;logo=Gmail&amp;logoColor=white&amp;link=mailto:xyz@blazed.space"
+            <a href="mailto:hello@blazed.space"><img
+                  src="https://img.shields.io/badge/-Email-c14438?style=flat&amp;logo=Gmail&amp;logoColor=white&amp;link=mailto:hello@blazed.space"
                   alt="Email"></a>
             <a href="https://cash.app/$blazedlabs"><img
                   src="https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-FF813F?style=flat&amp;logo=buy-me-a-coffee&amp;logoColor=ffffff&amp;link=https://cash.app/$blazedlabs"
@@ -45,7 +45,7 @@ author: false
          <p>
             We are always looking to work with people that are artistic or scientically inclined, as well as who are
             interested in creating and working on cool, interesting, and meaningful projects! Shoot us <a
-               href="mailto:xyz@blazed.space">an e-mail</a> if that sounds like your cup of tea.
+               href="mailto:hello@blazed.space">an e-mail</a> if that sounds like your cup of tea.
          </p>
 
    </div>
