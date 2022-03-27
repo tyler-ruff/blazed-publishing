@@ -3,11 +3,11 @@ layout: page
 permalink: /
 ---
 
-### Collect. Connect. Create.
+### We turn dreams into reality.
 
 [[“The obscure outlasts the obvious” <br><cite>--- Tao Te Ching by Laozi</cite>::rmn]]
 
-1. [**Catalogue of Notes:**](/notes)
+1. [**STEM Articles:**](/notes)
    - Quick and simple posts about all kinds of things, engineering, systems design & development, philosophy, mathematics, etc.
 2. [**Blazed Quarterly Publication:**](/journals)
    - A document published once quarterly to the public, so that they may see the current affairs of the Blazed company, Blazed World, Blazed City, and/or RUFF Foundation.
@@ -15,9 +15,9 @@ permalink: /
    - Other published documents not released as part of a quarterly publication.
 
 Blazed Publishing is a business division of the Blazed Labs company.
-This division is responsible for publishing text, media, and software for the Blazed Labs company.
+This division is responsible for publishing text, media, and software for the Blazed Labs company. 
 
-For more examples and information, please visit the following articles:
+For a quick overview of our work and process, please refer to the following articles:
 
 1. **[[Exploring the features of Enjoyment work]]**
 2. **[[Example Page to View Markdown Rendering]]**
@@ -30,26 +30,25 @@ This website is a garden of sorts, of information and articles. This site is als
 - [**Github**](https://github.com/blazed-xyz): A minimalist, bare-bones theme for Jekyll only using the Water.css framework while still following the best practices for accessibility and search-engine optimization.
 - [Learn More](https://www.blazed.xyz/about/)
 
-## Digital Gardens: An Overview
+## Blazed Watch: Film and Media Production
 
-<mark>What exactly <i>is</i> a digital garden, you might ask?</mark> The defintion of a Digital Garden is not absolute--it is a relatively new term that has gained popularly recently, that describes online spaces that are moreso dedicated to the act of learning and growth, rather than final products. [["It's less than a blog, more than a tweet." As part of my exploration of digital gardens. <br><cite>--- Inspired by Anna and Kelly Pendergrast</cite>::rmn]]
+<mark>We turn art into films.</mark> Discover the breathtaking experiences, explore a whole new world. Our talented team of producers, directors, actors, camera operators, and grips will ensure your production goes on without a hitch. So, ditch the confusion and go with a team of professionals. 
 
-> "It's less about building personal internet spaces, and more of a manifesto on user experience flows and content organisation. The essay was part of a larger metaphorical conversation happening throughout the nineties around hypertext."
+> "Join us, as we endeavour to make a worldwide, virtual home of film. It is an honor to serve this most challenging task."
 >
-> --- [**Maggie Appleton**](https://maggieappleton.com/garden-history):
-> A Brief History & Ethos of the Digital Garden.
+> --- [**Tyler Ruff**](https://github.com/tyler-ruff):
+> Executive Producer
 
-[["A digital garden is an online space at the intersection of a notebook and a blog, where digital grdeners share seeds of thoughts to be cultivated in public."<br><cite> ---From [**Ness Labs**](https://nesslabs.com/digital-garden-set-up)</cite>::lmn]] As you can see, the term and idea are a bit of a rabbit hole. For a far more thorough explanation and examples of other digital gardens, please visit Maggie's repository: [**Digital-Gardeners**](https://github.com/MaggieAppleton/digital-gardeners).
+[[In addition to making films in house, we also work with contributions and contractors. <br> If you are interesting in working with us, please get in touch using our: [**Contact Form**](https://www.blazed.watch/contact/).]]
 
-### Vocabulary
+### Publishing Services
 
-1. **Seeds**
-    - Seed your garden with quality content and cultivate your curiosity. Plant seeds in your mind garden by taking smart personal notes (taking raw notes is useless). These don't need to be written in a publishable form.
-2. **Trees**
-    - Grow your knowledge by forming new branches and connecting the dots. Write short structured notes articulating specific ideas and publish them in your digital garden.
-    - One note in your digital garden = one idea. (what you're currently reading is such a note) Do not keep orphan notes. Thread your thoughts.
-3. **Fruits**
-    - Produce new work. These are more substantial—essays, videos, maybe a book at some point. The kind of work researchers and creatives may hope will help them live beyond their expiration date.
+1. **Text**
+    - Physical and digital text publications. From stories to informational articles, we will nourish your hungry noggin.
+2. **Film**
+    - Feature-length films and short advertisements, we work for investors or for hire, making sure your productions see the light of day, every which way.
+3. **Interactive**
+    - Games, software, and other interactive media; discover how Concrete Games Interactive can make an app for that.
 
 ### The Philosophy of Digital Gardens
 
