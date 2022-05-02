@@ -1,18 +1,27 @@
-# blazed-publishing
+# fire-angular
+The Fire bootstrap &amp; framework library for AngularJS.
 
-![Screenshot](screenshot.png)
-![Netlify Status](https://api.netlify.com/api/v1/badges/dedad024-19e2-49bb-af33-c5a74214f284/deploy-status)
+## What's Included
+This package uses:
+- [AngularJS](https://angular.io/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-Blazed Publishing BD: Make your words mean something.
+## Installing
+To install, run the following command at the root of the directory:
+```sh
+npm install
+```
 
-## Credits
-+ **Jeyll Theme By:**
-- [Enjoyment Work](https://enjoyment-work.netlify.app/)
-+ **Publishers:**
-- [Blazed Labs LLC.](https://blazedlabs.com)
-- [Blazed Systems BD.](https://blazed.systems)
-- [Blazed Publishing BD.](https://blazed.xyz)
-+ **Development Team:**
-- Project Manager: [Plotinus Magnus](https://www.facebook.com/Plotinus-Magnus-106263045283274)
-- Lead Engineer: [Tyler Ruff](https://github.com/tyler-ruff)
-- Other Engineer(s): [Matthew Ruff](https://github.com/matt-ruff)
+## Live Development Server
+To run a live dev server, first ensure you have NPM installed. Then, if you have not already, install the Angular CLI,
+
+```sh
+npm install -g @angular/cli
+```
+
+Once installed, you can run a simple development server with the following command:
+
+```sh
+ng serve
+```
+
