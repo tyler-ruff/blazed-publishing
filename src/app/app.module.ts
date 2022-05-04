@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { LazyLoadDirective } from './lazyload.directive';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
@@ -18,6 +19,7 @@ import { SearchComponent } from './search/search.component';
 @NgModule({
   declarations: [
     AppComponent,
+    LazyLoadDirective,
     HeaderComponent,
     FooterComponent,
     HomeComponent,
