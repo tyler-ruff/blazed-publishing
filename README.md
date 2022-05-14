@@ -1,27 +1,22 @@
-# fire-angular
-The Fire bootstrap &amp; framework library for AngularJS.
+# Blazed Publishing
 
-## What's Included
-This package uses:
+## Overview
+Document and article publishing platform.
+
+## Learn More
+This platform is a delivery and engagement solution, which is the primary channel by which our publishing service delivers content to subscribers and viewers. The service is primarily geared towards newspapers, magazines, blogs, books, and scholarly journals. The platform allows for each to be organized in a manner that is fit for its intended delivery method. Our solution can scale to large organizations, but it is also suitable for small business, consisting of as little as one member.
+
+## Made With
+- Love By Blazed Labs LLC, and;
+- [Fire Angular](https://github.com/blazed-space/fire-angular)
 - [AngularJS](https://angular.io/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Sanity](https://sanity.io/)
+- [Firebase](https://firebase.google.com/)
+- [AddThis](https://www.addthis.com/)
+- [Disqus](https://disqus.com/)
 
-## Installing
-To install, run the following command at the root of the directory:
-```sh
-npm install
-```
-
-## Live Development Server
-To run a live dev server, first ensure you have NPM installed. Then, if you have not already, install the Angular CLI,
-
-```sh
-npm install -g @angular/cli
-```
-
-Once installed, you can run a simple development server with the following command:
-
-```sh
-ng serve
-```
-
+## Development Team
+- [Tyler Ruff](https://github.com/tyler-ruff)
+- [Matthew Ruff](https://github.com/matt-ruff)
+- Star Dom

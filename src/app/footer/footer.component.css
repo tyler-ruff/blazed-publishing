@@ -1,0 +1,21 @@
+.footer-links-mobile{
+    display:none;
+}
+
+@media only screen and (max-width: 639px){
+    footer{
+        text-align: center;
+    }
+    .footer-logo{
+        width:32px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-social, .footer-links{
+        display: none;
+    }
+    .footer-links-mobile{
+        display:block;
+    }
+}

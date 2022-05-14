@@ -77,3 +77,10 @@ body::-webkit-scrollbar-thumb:hover{
     background: #000;
     color: #fff;
 }
+.blz-app{
+    position:relative;
+    width: 1200px;
+    max-width:95%;
+    margin-left:auto;
+    margin-right: auto;
+}

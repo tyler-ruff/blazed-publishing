@@ -1,51 +1,35 @@
-<header class="border-b border-gray-100">
-    <div
-      class="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8"
-    >
+<header class="border-b border-gray-100 mt-3">
+    <nav class="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-10 pl-3 pb-5 pt-5 bg-gray-600 rounded-t">
       <div class="flex items-center">
-        <button type="button" class="p-2 sm:mr-4 lg:hidden">
-          <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-  
-        <a href="/home" class="flex">
-          <img src="https://blazed.sirv.com/logo/Beaker-Red.png?w=50&h=50">
+        <a href="/home" title="Blazed Publishing" class="flex md:pl-3">
+          <img src="https://blazed.sirv.com/logo/Beaker-Gray.png?w=45&h=45">
         </a>
       </div>
   
       <div class="flex items-center justify-end flex-1">
-        <nav class="hidden lg:uppercase lg:text-gray-500 lg:tracking-wide lg:font-bold lg:text-xs lg:space-x-4 lg:flex">
-          <a routerLink="/home" routerLinkActive="is-active"
-            class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
-            Home
-          </a>
-  
-          <a routerLink="/categories" routerLinkActive="is-active"
-            class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
-            Categories
-          </a>
-  
-          <a routerLink="/authors" routerLinkActive="is-active"
-            class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
-            Authors
-          </a>
-        </nav>
-  
-        <div class="flex items-center ml-8">
-          <div class="flex items-center border-gray-100 divide-x divide-gray-100 border-x">
-            <span class="hidden sm:block">
-              <a routerLink="/search" routerLinkActive="is-active" class="block p-6 border-b-4 border-transparent hover:border-red-700">
-                <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-                <span class="sr-only">
-                    Search
-                </span>
-              </a>
-            </span>
-          </div>
+        <div class="hidden lg:uppercase lg:text-gray-500 lg:tracking-wide lg:font-bold lg:text-xs lg:space-x-4 lg:flex">
+          <app-nav></app-nav>
+        </div>
+        
+        <div class="flex items-center ml-8 border-gray-500 border-l">
+          <button (click)="burgerVisible = !burgerVisible" type="button" class="p-2 pr-5 pl-5 lg:hidden burger-button">
+            <ng-container *ngIf="burgerVisible">
+              <svg class="w-6 h-6" width="45" height="45" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+              </svg>
+            </ng-container>
+            <ng-container *ngIf="!burgerVisible">
+              <svg class="w-6 h-6" width="45" height="45" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M4.5 13.5A.5.5 0 015 13h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 9h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 5h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+              </svg>
+            </ng-container>
+          </button>
         </div>
       </div>
+    </nav>
+    <div class="header-nav-mobile absolute w-full bg-gray-600 shadow-md">
+      <ng-container *ngIf="burgerVisible">
+        <app-nav></app-nav>
+      </ng-container>
     </div>
   </header>

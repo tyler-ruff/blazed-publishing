@@ -1,0 +1,25 @@
+.is-active{
+    border-bottom: 4px solid rgba(255,255,255,0.5);
+    color: #d50000;
+}
+.header-nav-menu a{
+    color: rgba(255,255,255,0.7);
+    margin-top:2px;
+}
+
+@media only screen and (max-width: 1023px){
+    .header-nav-menu{
+        display:block;
+    }
+    .header-nav-menu a{
+        text-align: center;
+    }
+    .header-nav-menu a:hover{
+        border:0;
+    }
+    .is-active{
+        border-bottom: 0;
+        color: rgba(255,255,255,0.7);
+        text-decoration: underline;
+    }
+}
