@@ -18,6 +18,19 @@ import { NavComponent } from './nav/nav.component';
 import { DisqusModule } from "ngx-disqus";
 import { CommentsComponent } from './comments/comments.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { BlogsComponent } from './blogs/blogs.component';
+import { BooksComponent } from './books/books.component';
+import { PeriodicalsComponent } from './periodicals/periodicals.component';
+import { BookComponent } from './book/book.component';
+import { MagazineComponent } from './magazine/magazine.component';
+import { NewspaperComponent } from './newspaper/newspaper.component';
+import { JournalComponent } from './journal/journal.component';
+import { PostComponent } from './post/post.component';
+import { ToHTMLPipe } from './to-html.pipe';
+import { FormatDatePipe } from './format-date.pipe';
+import { SanityImagePipe } from './sanity-image.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,11 +43,23 @@ import { CommentsComponent } from './comments/comments.component';
     UnknownComponent,
     SearchComponent,
     NavComponent,
-    CommentsComponent
+    CommentsComponent,
+    BlogsComponent,
+    BooksComponent,
+    PeriodicalsComponent,
+    BookComponent,
+    MagazineComponent,
+    NewspaperComponent,
+    JournalComponent,
+    PostComponent,
+    ToHTMLPipe,
+    FormatDatePipe,
+    SanityImagePipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     DisqusModule.forRoot('blazed-publishing'),
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
