@@ -1,1 +1,13 @@
-<p>book works!</p>
+<ng-container *ngIf="id">
+	<article class="max-w-2xl px-6 py-14 mx-auto space-y-12 bg-coolGray-100 text-coolGray-900">
+		<div>
+			<app-volume [bookId]="id"></app-volume>
+		</div>
+	</article>
+</ng-container>
+<ng-container *ngIf="!id">
+	<!--
+		404: Document not found.
+	-->
+	<app-unknown></app-unknown>
+</ng-container>

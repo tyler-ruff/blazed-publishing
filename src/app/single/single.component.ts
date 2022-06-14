@@ -9,6 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 export class SingleComponent {
 
   id: string | undefined;
+  type: string = "blog";
   
   constructor(private route: ActivatedRoute,) { }
 
@@ -17,8 +18,10 @@ export class SingleComponent {
     this.route.queryParams
       .subscribe(params => {
         //console.log(params); // { orderby: "price" }
-        //console.log(this.id); // price
         this.id = params['id'];
+        if(params['type'] !== undefined){
+          this.type = params['type'];
+        }
       }
     );
     

@@ -30,6 +30,7 @@ import { PostComponent } from './post/post.component';
 import { ToHTMLPipe } from './to-html.pipe';
 import { FormatDatePipe } from './format-date.pipe';
 import { SanityImagePipe } from './sanity-image.pipe';
+import { VolumeComponent } from './volume/volume.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { SanityImagePipe } from './sanity-image.pipe';
     PostComponent,
     ToHTMLPipe,
     FormatDatePipe,
-    SanityImagePipe
+    SanityImagePipe,
+    VolumeComponent
   ],
   imports: [
     BrowserModule,

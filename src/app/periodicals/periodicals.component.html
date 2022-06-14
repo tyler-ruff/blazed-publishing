@@ -1,1 +1,14 @@
-<p>periodicals works!</p>
+<div class="flex items-center -mx-4 space-x-2 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap text-gray-800 mt-2">
+    <a rel="noopener noreferrer" routerLink="/periodicals/magazines" routerLinkActive="is-active" class="flex items-center flex-shrink-0 px-5 py-2 border-b-4 border-gray-300 text-gray-600">
+        Magazines
+    </a>
+	<a rel="noopener noreferrer" routerLink="/periodicals/newspapers" routerLinkActive="is-active" class="flex items-center flex-shrink-0 px-5 py-2 border-b-4 border-gray-300 text-gray-600">
+        Newspapers
+    </a>
+	<a rel="noopener noreferrer" routerLink="/periodicals/journals" routerLinkActive="is-active" class="flex items-center flex-shrink-0 px-5 py-2 border-b-4 border-gray-300 text-gray-900">
+        Journals
+    </a>
+</div>
+<div>
+    <router-outlet></router-outlet>
+</div>
