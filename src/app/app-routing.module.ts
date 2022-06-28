@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Router, RouterModule, Routes, ActivatedRoute, ParamMap } from '@angular/router';
+import { AboutComponent } from './about/about.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { BookComponent } from './book/book.component';
@@ -14,6 +15,8 @@ import { SingleComponent } from './single/single.component';
 import { UnknownComponent } from './unknown/unknown.component';
 
 const routes: Routes = [
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'view', component: SingleComponent },
   { path: 'blogs', component: BlogsComponent },
   { path: 'books', component: BooksComponent },
@@ -28,7 +31,6 @@ const routes: Routes = [
       { path: '**',   redirectTo: '/periodicals/magazines', pathMatch: 'full' }
     ]
   },
-  { path: 'home', component: HomeComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: UnknownComponent },
 ];

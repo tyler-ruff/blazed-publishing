@@ -6,6 +6,6 @@ export class FormatDatePipe implements PipeTransform {
     constructor() {}
 
     transform(value: any): string {
-        return dayjs(value).format('DD/MM/YYYY');
+        return dayjs(value).format('MM/DD/YYYY');
     }
 }

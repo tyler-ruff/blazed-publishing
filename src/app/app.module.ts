@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, UrlSegment } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
+import { FormatDatePipe } from './format-date.pipe';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -11,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { SingleComponent } from './single/single.component';
+import { HomeComponent } from './home/home.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { UnknownComponent } from './unknown/unknown.component';
 import { SearchComponent } from './search/search.component';
@@ -28,9 +30,9 @@ import { NewspaperComponent } from './newspaper/newspaper.component';
 import { JournalComponent } from './journal/journal.component';
 import { PostComponent } from './post/post.component';
 import { ToHTMLPipe } from './to-html.pipe';
-import { FormatDatePipe } from './format-date.pipe';
 import { SanityImagePipe } from './sanity-image.pipe';
 import { VolumeComponent } from './volume/volume.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,7 @@ import { VolumeComponent } from './volume/volume.component';
     SearchComponent,
     NavComponent,
     CommentsComponent,
+    HomeComponent,
     BlogsComponent,
     BooksComponent,
     PeriodicalsComponent,
@@ -56,7 +59,8 @@ import { VolumeComponent } from './volume/volume.component';
     ToHTMLPipe,
     FormatDatePipe,
     SanityImagePipe,
-    VolumeComponent
+    VolumeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
